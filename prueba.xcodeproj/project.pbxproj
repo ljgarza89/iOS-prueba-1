@@ -21,6 +21,7 @@
 		E1FF0EF419C0F2E9007B73B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1FF0ED619C0F2E9007B73B4 /* UIKit.framework */; };
 		E1FF0EFC19C0F2E9007B73B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1FF0EFA19C0F2E9007B73B4 /* InfoPlist.strings */; };
 		E1FF0EFE19C0F2E9007B73B4 /* pruebaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FF0EFD19C0F2E9007B73B4 /* pruebaTests.m */; };
+		E1FF0F0919C0F59D007B73B4 /* PGholo.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FF0F0819C0F59D007B73B4 /* PGholo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		E1FF0EF919C0F2E9007B73B4 /* pruebaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pruebaTests-Info.plist"; sourceTree = "<group>"; };
 		E1FF0EFB19C0F2E9007B73B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E1FF0EFD19C0F2E9007B73B4 /* pruebaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pruebaTests.m; sourceTree = "<group>"; };
+		E1FF0F0719C0F59D007B73B4 /* PGholo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGholo.h; sourceTree = "<group>"; };
+		E1FF0F0819C0F59D007B73B4 /* PGholo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGholo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		E1FF0EC619C0F2E9007B73B4 = {
 			isa = PBXGroup;
 			children = (
+				E1FF0F0719C0F59D007B73B4 /* PGholo.h */,
+				E1FF0F0819C0F59D007B73B4 /* PGholo.m */,
 				E1FF0ED819C0F2E9007B73B4 /* prueba */,
 				E1FF0EF719C0F2E9007B73B4 /* pruebaTests */,
 				E1FF0ED119C0F2E9007B73B4 /* Frameworks */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1FF0F0919C0F59D007B73B4 /* PGholo.m in Sources */,
 				E1FF0EDF19C0F2E9007B73B4 /* main.m in Sources */,
 				E1FF0EE919C0F2E9007B73B4 /* PGViewController.m in Sources */,
 				E1FF0EE319C0F2E9007B73B4 /* PGAppDelegate.m in Sources */,
